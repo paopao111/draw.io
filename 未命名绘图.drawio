@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2023-07-25T02:50:05.613Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MXVlazWxhLfngHLXbzGX" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-25T02:59:24.692Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_4JYLToNK6JFmxCkfh8j" version="21.6.5" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1754" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1413" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-48" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1740" width="300" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-47" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="638.5" y="1740" width="325" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-45" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1740" width="325" height="450" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-1" value="uat 部署流程" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="70" y="40" width="1280" height="610" as="geometry" />
         </mxCell>
@@ -536,6 +545,15 @@
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-36" value="初始化deploy分支，添加jerkins File文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="990" y="1880" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-41" value="优先考虑" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-42" value="其次考虑" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-43" value="最后兜底" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1660" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
