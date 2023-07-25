@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-07-25T02:59:24.692Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_4JYLToNK6JFmxCkfh8j" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-25T03:49:44.011Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="j7XnEiFCW1yc2ZkgEAXd" version="21.6.5" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1413" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-66" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="2310" width="320" height="560" as="geometry" />
+        </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-48" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="1740" width="300" height="220" as="geometry" />
         </mxCell>
@@ -554,6 +557,208 @@
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-43" value="最后兜底" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1190" y="1660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-49" target="saEO5eg__7vzz_JUaBiZ-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-49" value="切换到项目根目录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-50" target="saEO5eg__7vzz_JUaBiZ-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-50" value="切换到checklist中对应的bank 版本" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-51" target="saEO5eg__7vzz_JUaBiZ-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-51" value="git pull 拉最新代码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-53" target="saEO5eg__7vzz_JUaBiZ-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-57" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="saEO5eg__7vzz_JUaBiZ-56">
+          <mxGeometry x="-0.3143" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-53" target="saEO5eg__7vzz_JUaBiZ-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-60" value="没有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="saEO5eg__7vzz_JUaBiZ-59">
+          <mxGeometry x="-0.24" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-53" value="是否与bank id 仓库绑定" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2620" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-54" value="git push bank-id&amp;nbsp; bank/v4.0.0:uat -f" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-58" target="saEO5eg__7vzz_JUaBiZ-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-58" value="git remote add bank-id {bank-git地址}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="425" y="2710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-67" value="bank id 代码同步过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-101" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="2310" width="320" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-103" target="saEO5eg__7vzz_JUaBiZ-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-103" value="切换到项目根目录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="625" y="2340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-105" target="saEO5eg__7vzz_JUaBiZ-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-105" value="切换到checklist中对应的bank 版本" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="625" y="2440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-107" target="saEO5eg__7vzz_JUaBiZ-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-107" value="git pull 拉最新代码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="625" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-112" target="saEO5eg__7vzz_JUaBiZ-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-109" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="saEO5eg__7vzz_JUaBiZ-108">
+          <mxGeometry x="-0.3143" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-112" target="saEO5eg__7vzz_JUaBiZ-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-111" value="没有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="saEO5eg__7vzz_JUaBiZ-110">
+          <mxGeometry x="-0.24" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-112" value="是否与bank ph 仓库绑定" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="625" y="2620" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-113" value="git push bank-ph&amp;nbsp; bank/v4.0.0:uat -f" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="625" y="2780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-115" target="saEO5eg__7vzz_JUaBiZ-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-115" value="git remote add bank-ph {bank-git地址}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="765" y="2710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-116" value="bank ph 代码同步过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="2340" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-117" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="935" y="2310" width="320" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-119" target="saEO5eg__7vzz_JUaBiZ-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-119" value="切换到项目根目录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="970" y="2340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-121" target="saEO5eg__7vzz_JUaBiZ-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-121" value="切换到checklist中对应的bank 版本" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="970" y="2440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-123" target="saEO5eg__7vzz_JUaBiZ-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-123" value="git pull 拉最新代码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="970" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-128" target="saEO5eg__7vzz_JUaBiZ-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-125" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="saEO5eg__7vzz_JUaBiZ-124">
+          <mxGeometry x="-0.3143" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-128" target="saEO5eg__7vzz_JUaBiZ-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-127" value="没有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="saEO5eg__7vzz_JUaBiZ-126">
+          <mxGeometry x="-0.24" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-128" value="是否与bank sg 仓库绑定" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="970" y="2620" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-129" value="git push bank-sg&amp;nbsp; bank/v4.0.0:uat -f" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="970" y="2780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-131" target="saEO5eg__7vzz_JUaBiZ-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-131" value="git remote add bank-sg {bank-git地址}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="2710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-132" value="bank sg 代码同步过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="2340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-133" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2255" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-134" value="差异点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2250" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-135" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2255" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-136" value="相似点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2250" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-137" target="saEO5eg__7vzz_JUaBiZ-112">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="2600" />
+              <mxPoint x="685" y="2600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-137" value="连接bank ph vpn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="780" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-140" value="此时确保断开bank vpn" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="2300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-141" value="此时确保断开bank vpn" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-142" value="此时确保断开bank vpn" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="2280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-143" target="saEO5eg__7vzz_JUaBiZ-128">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170" y="2600" />
+              <mxPoint x="1030" y="2600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-143" value="连接bank sg vpn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-146" value="连接bank sg non-live vpn" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="2450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-147" value="git 地址为non-live 地址" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="2670" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
