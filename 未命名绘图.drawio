@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-25T02:33:44.818Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="rXv6ECEqFDVcQkRQRDbj" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-25T02:50:05.613Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MXVlazWxhLfngHLXbzGX" version="21.6.5" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1754" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -428,17 +428,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-1" value="连接bank ph vpn 将ph代码保存到本地" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1640" width="270" height="60" as="geometry" />
+          <mxGeometry x="311" y="1760" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-2" target="saEO5eg__7vzz_JUaBiZ-1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="446" y="1570" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-5" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="saEO5eg__7vzz_JUaBiZ-4">
           <mxGeometry x="-0.2938" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="saEO5eg__7vzz_JUaBiZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-2">
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-2" target="saEO5eg__7vzz_JUaBiZ-25">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="940" y="1640" as="targetPoint" />
           </mxGeometry>
@@ -449,55 +453,89 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-2" value="其他站点（例如ph）是否已经有该项目" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1530" width="130" height="80" as="geometry" />
+          <mxGeometry x="570" y="1535" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-8" target="saEO5eg__7vzz_JUaBiZ-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-8" value="连接bank id vpn（uat环境不需要连接），在项目根目录下使用git remote add bank-id {仓库地址}, 即bank id git仓库地址&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1760" width="270" height="60" as="geometry" />
+          <mxGeometry x="311" y="1880" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-10" target="saEO5eg__7vzz_JUaBiZ-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-10" value="推送bank ph代码到bank ID（uat和master）：执行 git push bank-id branch1:branch2，branch1是origin的分支，branch2是要推送到bank-id的分支" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1870" width="270" height="60" as="geometry" />
+          <mxGeometry x="311" y="1990" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-12" value="初始化deploy分支，添加jerkins File文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1990" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="saEO5eg__7vzz_JUaBiZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-15" target="saEO5eg__7vzz_JUaBiZ-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="saEO5eg__7vzz_JUaBiZ-15" value="shopee代码保存到本地" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="810" y="1640" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="saEO5eg__7vzz_JUaBiZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-17" target="saEO5eg__7vzz_JUaBiZ-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="saEO5eg__7vzz_JUaBiZ-17" value="连接bank id vpn（uat环境不需要连接），在项目根目录下使用git remote add bank-id {仓库地址}, 即bank id git仓库地址&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="810" y="1760" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="saEO5eg__7vzz_JUaBiZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-19" target="saEO5eg__7vzz_JUaBiZ-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="saEO5eg__7vzz_JUaBiZ-19" value="推送shopee代码到bank ID（uat和master）：执行 git push bank-id branch1:branch2，branch1是origin的分支，branch2是要推送到bank-id的分支" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="810" y="1870" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="saEO5eg__7vzz_JUaBiZ-20" value="初始化deploy分支，添加jerkins File文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="810" y="1990" width="270" height="60" as="geometry" />
+          <mxGeometry x="311" y="2110" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1515" width="40" height="20" as="geometry" />
+          <mxGeometry x="305" y="1510" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-22" value="差异点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="1510" width="90" height="30" as="geometry" />
+          <mxGeometry x="325" y="1505" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="500" y="1515" width="40" height="20" as="geometry" />
+          <mxGeometry x="405" y="1510" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-24" value="相似点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1510" width="90" height="30" as="geometry" />
+          <mxGeometry x="425" y="1505" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-25" target="saEO5eg__7vzz_JUaBiZ-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-34" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="saEO5eg__7vzz_JUaBiZ-33">
+          <mxGeometry x="-0.2667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-25" target="saEO5eg__7vzz_JUaBiZ-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-39" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="saEO5eg__7vzz_JUaBiZ-38">
+          <mxGeometry x="-0.4542" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-25" value="checklist是否已经完成该项目的确认" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1640" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-27" target="saEO5eg__7vzz_JUaBiZ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-27" value="shopee代码保存到本地" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="666" y="1760" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-29" target="saEO5eg__7vzz_JUaBiZ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-29" value="连接bank id vpn（uat环境不需要连接），在项目根目录下使用git remote add bank-id {仓库地址}, 即bank id git仓库地址&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="666" y="1880" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-31" target="saEO5eg__7vzz_JUaBiZ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-31" value="推送shopee代码到bank ID（uat和master）：执行 git push bank-id branch1:branch2，branch1是origin的分支，branch2是要推送到bank-id的分支" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="666" y="1990" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-32" value="初始化deploy分支，添加jerkins File文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="666" y="2110" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-35" target="saEO5eg__7vzz_JUaBiZ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-35" value="在master分支下创建readme，基于该分支创建uat 和deploy分支" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="995" y="1760" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-36" value="初始化deploy分支，添加jerkins File文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1880" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
