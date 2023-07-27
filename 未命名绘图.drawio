@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-26T10:36:52.509Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jQOugTqeVXOAgN9XioII" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T02:08:02.656Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="2pj8P32yg8C7aEF3nHcu" version="21.6.5" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1695" dy="1891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -623,7 +623,7 @@
         <mxCell id="saEO5eg__7vzz_JUaBiZ-58" value="git remote add bank-id {bank-git地址}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="425" y="2710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saEO5eg__7vzz_JUaBiZ-67" value="bank id 代码同步过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-67" value="&lt;b&gt;bank id 代码同步过程&lt;/b&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="2340" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-101" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -675,7 +675,7 @@
         <mxCell id="saEO5eg__7vzz_JUaBiZ-115" value="git remote add bank-ph {bank-git地址}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="765" y="2710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saEO5eg__7vzz_JUaBiZ-116" value="bank ph 代码同步过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-116" value="&lt;b&gt;bank ph 代码同步过程&lt;/b&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="770" y="2340" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-117" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -727,8 +727,8 @@
         <mxCell id="saEO5eg__7vzz_JUaBiZ-131" value="git remote add bank-sg {bank-git地址}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1110" y="2710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saEO5eg__7vzz_JUaBiZ-132" value="bank sg 代码同步过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1125" y="2340" width="120" height="30" as="geometry" />
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-132" value="&lt;b&gt;bank sg 代码同步过程&lt;/b&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="2340" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-133" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="240" y="2255" width="40" height="20" as="geometry" />
@@ -753,13 +753,13 @@
         <mxCell id="saEO5eg__7vzz_JUaBiZ-137" value="连接bank ph vpn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="780" y="2530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="saEO5eg__7vzz_JUaBiZ-140" value="此时确保断开bank vpn" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;position2=1;" vertex="1" parent="1">
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-140" value="此时确保断开bank vpn，连接shopee内网" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;position2=1;" vertex="1" parent="1">
           <mxGeometry x="165" y="2300" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="saEO5eg__7vzz_JUaBiZ-141" value="此时确保断开bank vpn" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;position2=1;" vertex="1" parent="1">
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-141" value="此时确保断开bank vpn，连接shopee内网" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;position2=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="2290" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="saEO5eg__7vzz_JUaBiZ-142" value="此时确保断开bank vpn" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;position2=1;" vertex="1" parent="1">
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-142" value="此时确保断开bank vpn，连接shopee内网" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;position2=1;" vertex="1" parent="1">
           <mxGeometry x="850" y="2280" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="saEO5eg__7vzz_JUaBiZ-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saEO5eg__7vzz_JUaBiZ-143" target="saEO5eg__7vzz_JUaBiZ-128">
