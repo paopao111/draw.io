@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T02:46:36.342Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="94WymRNMGx7TaqijRpx4" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T03:18:35.301Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sazeBRHMve8xTbB97yVY" version="21.6.5" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1695" dy="1891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1130" dy="1544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -323,7 +323,7 @@
         <mxCell id="IIWUCs54Z6hcs_hi1kmr-186" value="小组bank pic 查看checklist中是否有配置变更的备注&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="IIWUCs54Z6hcs_hi1kmr-185" vertex="1">
           <mxGeometry x="38" y="45" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="IIWUCs54Z6hcs_hi1kmr-187" value="小组bank pic 同步配置" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="IIWUCs54Z6hcs_hi1kmr-185" vertex="1">
+        <mxCell id="IIWUCs54Z6hcs_hi1kmr-187" value="小组bank pic 同步配置至live配置中心" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="IIWUCs54Z6hcs_hi1kmr-185" vertex="1">
           <mxGeometry x="43" y="160" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IIWUCs54Z6hcs_hi1kmr-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="IIWUCs54Z6hcs_hi1kmr-185" source="IIWUCs54Z6hcs_hi1kmr-186" target="IIWUCs54Z6hcs_hi1kmr-187" edge="1">
@@ -343,7 +343,7 @@
         <mxCell id="IIWUCs54Z6hcs_hi1kmr-213" value="小组bank pic 查看checklist中是否有翻译资源同步" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="IIWUCs54Z6hcs_hi1kmr-212" vertex="1">
           <mxGeometry x="38" y="45" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="IIWUCs54Z6hcs_hi1kmr-214" value="小组bank pic 同步配置" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="IIWUCs54Z6hcs_hi1kmr-212" vertex="1">
+        <mxCell id="IIWUCs54Z6hcs_hi1kmr-214" value="小组bank pic 同步翻译" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="IIWUCs54Z6hcs_hi1kmr-212" vertex="1">
           <mxGeometry x="43" y="160" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IIWUCs54Z6hcs_hi1kmr-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="IIWUCs54Z6hcs_hi1kmr-212" source="IIWUCs54Z6hcs_hi1kmr-213" target="IIWUCs54Z6hcs_hi1kmr-214" edge="1">
@@ -428,7 +428,17 @@
         <mxCell id="IIWUCs54Z6hcs_hi1kmr-226" value="项目pic 查看问题原因" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="IIWUCs54Z6hcs_hi1kmr-192" vertex="1">
           <mxGeometry x="40" y="425" width="80" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="IIWUCs54Z6hcs_hi1kmr-235" value="bank pic辅助部署代码" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#f8cecc;strokeColor=#b85450;" parent="IIWUCs54Z6hcs_hi1kmr-192" vertex="1">
+        <mxCell id="saEO5eg__7vzz_JUaBiZ-301" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IIWUCs54Z6hcs_hi1kmr-192" source="IIWUCs54Z6hcs_hi1kmr-235">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="265" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="517" />
+              <mxPoint x="150" y="265" />
+              <mxPoint x="130" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IIWUCs54Z6hcs_hi1kmr-235" value="bank pic辅助推送代码" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#f8cecc;strokeColor=#b85450;" parent="IIWUCs54Z6hcs_hi1kmr-192" vertex="1">
           <mxGeometry x="40" y="495" width="80" height="45" as="geometry" />
         </mxCell>
         <mxCell id="IIWUCs54Z6hcs_hi1kmr-202" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
